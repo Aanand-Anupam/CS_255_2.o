@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objective_3</title>
+    <style>
+        
+        tr td{
+            padding-bottom: 25px;
+            padding-left: 5px;
+            padding-right: 50px;
+        }
+        #address{
+            width:20rem;
+            height:7.5rem;
+        }
+        select{
+            margin-bottom: 25px;
+        }
+        body{
+            font-family: sans-serif;
+            border:2px dashed black;
+            max-width: max-content;
+            background-color: bisque;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .parent_div{
+            background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+        }
+        input{
+            font-family: sans-serif;
+            border: none;
+            background-color: white;
+        }
+        input[type="text"]{
+            padding: 5px 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="parent_div">
+        <form>
+            <table>
+            <tr>
+            <td>
+            <label>First Name</label>
+            </td>
+            <td>
+            <input type="text" placeholder="Anupam">
+            <p style="display: inline;">(Max 50 characters Allowed)</p>
+            </td>
+            </tr>
+        
+                <tr>
+                <td>
+                <label>Last Name</label>
+                </td>
+                <td>
+                <input type="text" placeholder="Aanand">
+                <p style="display: inline;">(Max 50 characters Allowed)</p>
+                </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                    <label>Email ID</label>
+                    </td>
+                    <td>
+                    <input type="text" placeholder="Anupam@gmail.com">
+                    </td>
+                    </tr>
+            <tr>
+                <td>
+                <label>Mobile Number</label>
+                </td>
+                <td>
+                <input type="text" placeholder="9142xxxxxx" style="padding-left: 15px;">
+                <p style="display: inline;">(10 Digits Allowed)</p>
+                </td>
+                </tr>
+            <br>
+            <tr>
+            <td >
+            <label>Gender</label>
+            </td>
+            <td >
+            <input type="radio" name="Gender" value="Male">
+            
+            <label for="Male">Male</label>
+            
+            <input type="radio" name="Gender" value="Female">
+            <label for="Female">Female</label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <label>Date of Birth(DOB)</label>
+            </td>
+            <td>
+            <select>
+                <option placeholder="Day">Day</option>
+            </select>
+            
+                <select>
+                    <option placeholder="month">Month</option>
+                </select>
+                
+                    <select>
+                        <option placeholder="year">Year</option>
+                    </select>
+                    </td>
+                </tr>
+            
+            <tr>
+                <td>
+            <label>Address</label>
+            </td>
+            <td>
+            <input type="text" id="address">
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <label>City</label>
+                </td>
+                <td>
+            <input type="text" placeholder="Banglore">
+            <p style="display: inline;">(Max 50 characters Allowed)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <label>Pincode</label>
+            </td>
+            <td>
+            <input type="text" placeholder="843120">
+            <p style="display: inline;">(Max 6 Numbers Allowed)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <label>State</label>
+            </td>
+            <td>
+            <input type="text" placeholder="Bihar">
+            <p style="display: inline;">(Max 50 characters Allowed)</p>
+        </td>
+            </tr>
+            <tr>
+        <td>
+            <label>Country</label>
+            </td>
+            <td>
+            <input type="text" placeholder="India">
+        </td>
+            </tr>
+            <tr>
+                <td>
+            <label>Hobbies</label>
+            </td>
+            <td>
+                <input type="checkbox" placeholder="Drawing">
+                <label>Drawing</label>
+                <input type="checkbox" placeholder="Drawing">
+                <label>Singing</label>
+                <input type="checkbox" placeholder="Drawing">
+                <label>Dancing</label>
+                <input type="checkbox" placeholder="Drawing">
+                <label>Sketching</label>
+            <br>
+                <input type="checkbox" placeholder="Drawing">
+                <label>Others</label>
+                <input type="text" placeholder="EX. Teaching">
+                <p style="display: inline;">(Max 50 characters are Allowed)</p>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Qualifications</label>
+                </td>
+                <td>
+                    <input type="checkbox" placeholder="10th">
+                <label>High School(10th)</label>
+                <br>
+                <input type="checkbox" placeholder="12th">
+                <label>Higher School(12th)</label>
+                <br>
+                <input type="checkbox" placeholder="Graduations">
+                <label>Graduations(Bachelors)</label>
+                <br>
+                <input type="checkbox" placeholder="PG">
+                <label>Post Graduations(Masters)</label>
+                <br>
+                <input type="checkbox" placeholder="phd">
+                <label>Phd</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Courses Applied for</label>
+                </td>
+                <td>
+                    <input type="checkbox" placeholder="10th">
+                <label>BCA(Bachelors of computer Applications)</label>
+                <br>
+                <input type="checkbox" placeholder="12th">
+                <label>B.com(Bachelors of commerce)</label>
+                <br>
+                <input type="checkbox" placeholder="Graduations">
+                <label>B.Sc(Bachelors of Science)</label>
+                <br>
+                <input type="checkbox" placeholder="PG">
+                <label>BA(Bachelors of Arts)</label>
+                <br>
+                <input type="checkbox" placeholder="phd">
+                <label>MA(Masters of Arts)</label>
+                <br>
+                <input type="checkbox" placeholder="phd">
+                <label>M.com(Masters of Commerce)</label>
+                <br>
+                <input type="checkbox" placeholder="phd">
+                <label>MCA(Masters of computer Applications)</label>
+                <br>
+                <input type="checkbox" placeholder="phd">
+                <label>M.Sc(Masters of Science)</label>
+                </td>
+    
+            </tr>
+        </table>
+        </form>
+        
+        <div class="div1" style="display: flex; justify-content: center;">
+            <button type="button" style="margin-right: 5px; width:75px ;"> Submit</button>
+            <button type="button" style="width: 75px;">Reset</button>
+        </div>
+        
+    </div>
+        
+    
+</body>
+</html>

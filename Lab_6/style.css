@@ -1,0 +1,72 @@
+*{
+    margin-left: 1rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+
+h2{
+    text-align: center;
+    align-content: center;
+}
+button{
+    display: block;
+    border:0.2px solid transparent  ;
+    border-radius: 5px;
+    width:90%;
+    text-align: left;
+    cursor: pointer;
+    color:#FFFFFF;
+    background: #007BFF;
+}
+.btn_submit:hover{
+    background: #0056b3;
+}
+div{
+    width: 80%;
+    margin-bottom: 3rem;
+    border:15px solid #d3dad7;
+}
+.selected{
+    background-color:#004085;
+    border:2px solid darkblue;
+    
+}
+.body_2{
+    background-color: bisque;
+}
+
+body.thankin{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffb703;
+}
+.parent_div{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.score_card{
+    border: none;
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+
+.btn_sub{
+    width: 5rem;
+     /* display: block; */
+     
+      text-align: center;
+      
+      background-color:#023047;
+      align-content: center;
+      
+}
+.btn_sub:hover{
+    background-color: #231942;
+}
